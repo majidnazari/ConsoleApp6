@@ -31,6 +31,7 @@ namespace ConsoleApp6
                 List<int> list1 = new List<int> { 1, 2, 3 };
                 List<int> list2 = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
                 var x = people.Where(p => list1.Contains(p.Id));
+            //this is comment of e drive
         }
     
     }
