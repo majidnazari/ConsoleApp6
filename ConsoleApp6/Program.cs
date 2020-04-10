@@ -14,26 +14,7 @@ namespace ConsoleApp6
         static void Main(string[] args)
         {
 
-            IList<string> liststring = new List<string>
-            {
-                "ali",
-                "hassan",
-                "majid",
-                "hossein"
-            };
-            ICollection<string> listcollection = liststring;
-            IEnumerable<string> listenumerable = liststring;
-            liststring.Add("ll");
-            listcollection.Add("cc");
            
-            foreach (var item in listcollection)
-            {
-                Console.WriteLine("list is:" + item);
-            }
-            foreach (var item in listenumerable)
-            {
-                Console.WriteLine("list is:" + item);
-            }
             Console.ReadKey();
 
                 List<person> people = new List<person>
